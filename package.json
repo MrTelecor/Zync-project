@@ -102,12 +102,21 @@
   },
   "dependencies": {
     "@electron/notarize": "^2.3.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.1",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^6.1.4",
+    "jsonwebtoken": "^9.0.2",
+    "node-cmd": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.16.0"
+    "react-router-dom": "^6.28.1",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@electron/rebuild": "^3.3.0",
@@ -134,7 +143,7 @@
     "detect-port": "^1.5.1",
     "electron": "^31.3.0",
     "electron-builder": "^24.13.3",
-    "electron-devtools-installer": "^3.2.0",
+    "electron-devtools-installer": "^3.2.1",
     "electronmon": "^2.0.2",
     "eslint": "^8.49.0",
     "eslint-config-airbnb-base": "^15.0.0",
