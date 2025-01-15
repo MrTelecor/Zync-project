@@ -14,7 +14,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <h2>Inicio</h2>
-      <p>¡Este es el inicio de Zync</p>
+      <p>¡Este es el inicio de Zync!</p>
     </div>
   );
 };

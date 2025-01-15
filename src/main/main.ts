@@ -18,7 +18,7 @@ const createMainWindow = () => {
   // Cargar la aplicación React
   const startURL = app.isPackaged
     ? `file://${path.join(__dirname, '../renderer/index.html')}`
-    : 'http://localhost:1212/index.html';
+    : 'http://localhost:1212';
   mainWindow.loadURL(startURL);
 
   // Abre herramientas de desarrollo si no está empaquetado
