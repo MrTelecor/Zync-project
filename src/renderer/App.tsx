@@ -5,14 +5,6 @@ import Settings from './pages/Settings';
 
 function App() {
   return (
-    <div>
-      <h1>¡Bienvenido a Zync!</h1>
-      <p>Tu asistente virtual en desarrollo 🚀</p>
-    </div>
-  );
-
-
-  return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,8 +13,6 @@ function App() {
     </Router>
   );
 }
-
-
 
 export default App;
 
